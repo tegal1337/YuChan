@@ -65,7 +65,7 @@ elif [[ $select == 2 ]]; then
     read -p "Input List: " input
     echo ""
     echo "Looking for links in \"$input\""
-    echo "Saving songs in \"$folder\""
+    echo "Saving audio in \"$folder\""
     echo ""
 
     output="-o $folder/%(title)s.%(ext)s"
@@ -110,7 +110,7 @@ elif [[ $select == 3 ]]; then
     elif [[ $select == 2 ]]; then
       read -p "Input Url: " input
       echo "Looking for links in \"$input\""
-      echo "Saving audio in \"$folder\""
+      echo "Saving video in \"$folder\""
       echo ""
 
       output="-o $folder/%(title)s.%(ext)s"
